@@ -1,0 +1,12 @@
+{
+	"name": "cssgrid4",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "browser-sync start --server --files \"*\", \"css/*\""
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
