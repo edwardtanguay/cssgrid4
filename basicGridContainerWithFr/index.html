@@ -3,28 +3,27 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport"
-		  content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Basic GridContainer with fr</title>
 	<style>
 		body {
-			background: #fff;
-			padding: 20px;
+			background: #ddd;
+			padding: 30px;
 		}
 
 		.grid-container {
-			width: 100%;
-			border: 0 solid #fff;
-			margin: 0;
+			width: 50%;
+			border: 1px solid green;
 			display: grid;
-			grid-template-columns: 100px repeat(7, 1fr) 100px;
-			grid-template-rows: 200px;
+			grid-template-columns: 200px repeat(7, 1fr) 200px;
+			grid-template-rows: auto repeat(2, fr);
+
 		}
 
 		.grid-item {
-			background: #ccc;
+			background: lightyellow;
 			padding: 10px;
-			border: 2px solid #fff;
+			border: 1px solid green;
 		}
 	</style>
 </head>
